@@ -41,4 +41,4 @@ If I continue building on this project, I would:
 
 ## Live Demo
 
-https://azayour.github.io/pricing-page/)
+https://azayour.github.io/pricing-page/
