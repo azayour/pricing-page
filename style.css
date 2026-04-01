@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(21, 39, 77);
+}
+.page {
+    background-color: lightblue;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 0 30px blue;
+    min-height: 80vh;
+    margin-top: 80px;
+
+}
+
+.plans > div {
+    flex: 1;
+    max-width: 300px;
+    min-height: 500px; /* 🔥 increase this */
+
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+button{
+    float: right;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 5px 10px;  
+    border-radius: 10px; 
+}
+
+.container{
+    text-align: center;
+    color: blue;
+    padding: 20px;
+    margin-left: 75px;
+}
+
+/* card1 */
+.Basic-Plan{
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    width: 300px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.Basic-Plan p, .Basic-Plan h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.Basic-Plan button{
+    margin-top: auto
+}
+
+.Basic-Plan h2{
+    color: blue;
+}
+
+
+/* card2 */
+.Standard-Plan{
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    width: 300px;
+    align-items: center;
+    border: 2px solid blue;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue;
+}
+
+.Standard-Plan p, .Standard-Plan h2{
+    text-align: center;
+    margin: 10px 0;
+}
+.Standard-Plan h2{
+    color: blue;
+}
+.recommended{
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 5px;
+}
+
+.Standard-Plan button{
+    margin-top: auto
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* removes left spacing */
+}
+
+/* card3 */
+.Premium-Plan{
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    width: 300px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.Premium-Plan p, .Premium-Plan h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.Premium-Plan button{
+    margin-top: auto
+}
+
+.Premium-Plan h2{
+    color: blue;
+}
+
+
+.plans {
+    display: flex;
+    justify-content: center; /* center them */
+    gap: 20px;               /* space between cards */
+}
+
+.check {
+    color: green;
+    
+}
+
+.cross {
+    color: red;
+}
+
+.plans > div:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
